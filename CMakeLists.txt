@@ -11,7 +11,7 @@ project(${META_PROJECT_NAME} C CXX)
 SET( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/ppj_cmake_modules )
 
 # set a variable for the implementation, set the CPU model
-# changing this variable requires to regenerate the project/makefiles
+# ATTENTION: changing this variable requires to regenerate the project/makefiles
 set( CPU_M "ARMv8")
 
 # include variations 
